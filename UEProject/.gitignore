@@ -71,10 +71,3 @@ Build/Android/res/*/*
 !Build/Android/res/*/*.png
 
 # End of https://www.gitignore.io/api/c++,unrealengine
-
-Saved/Config/Windows/EditorPerProjectUserSettings.ini
-Saved/Config/CrashReportClient
-Saved/Autosaves
-Saved/Logs
-Saved/Backup
-Intermediate
