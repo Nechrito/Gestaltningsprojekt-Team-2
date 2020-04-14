@@ -1,2 +1,0 @@
-D:\Repositories\Gestaltningsprojekt-Team-2\UEProject\Intermediate\Build\Win64\UE4Editor\Development\UEProject\Definitions.UEProject.h
-D:\Repositories\Gestaltningsprojekt-Team-2\UEProject\Source\UEProject\UEProject.h
