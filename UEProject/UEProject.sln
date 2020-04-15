@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{DBF6394F-0982-496D-BF7F-872DDFF35FDF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{9B64FB32-D77C-40B6-A72E-CBC52444EB04}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{4B1C84AD-C972-487E-87B0-D5F6E09DAD24}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{6B6657AF-C70C-4615-AFFF-E29EDD51FADF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UEProject", "Intermediate\ProjectFiles\UEProject.vcxproj", "{2821BA91-8428-4257-A5F2-DBF949738860}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{C48ABBD5-6B8D-4F7E-842E-A3A1607A1AC0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{98CAAACC-EE63-4C45-AF44-922B7C504CA4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{8C31A4A3-4AA3-4B82-83B3-42A5C82B9A6B}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\..\Spel\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\Spel\Epic Games\UE_4.24\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -63,7 +63,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C48ABBD5-6B8D-4F7E-842E-A3A1607A1AC0} = {DBF6394F-0982-496D-BF7F-872DDFF35FDF}
-		{2821BA91-8428-4257-A5F2-DBF949738860} = {4B1C84AD-C972-487E-87B0-D5F6E09DAD24}
+		{C48ABBD5-6B8D-4F7E-842E-A3A1607A1AC0} = {9B64FB32-D77C-40B6-A72E-CBC52444EB04}
+		{2821BA91-8428-4257-A5F2-DBF949738860} = {6B6657AF-C70C-4615-AFFF-E29EDD51FADF}
 	EndGlobalSection
 EndGlobal
