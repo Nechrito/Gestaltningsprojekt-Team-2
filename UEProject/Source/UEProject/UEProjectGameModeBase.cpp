@@ -3,3 +3,8 @@
 
 #include "UEProjectGameModeBase.h"
 
+void AUEProjectGameModeBase::StartPlay()
+{
+    Super::StartPlay();
+
+}
