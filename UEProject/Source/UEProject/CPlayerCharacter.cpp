@@ -14,7 +14,7 @@ ACPlayerCharacter::ACPlayerCharacter()
 
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
 	CameraComponent->SetupAttachment((USceneComponent*)GetCapsuleComponent());
-	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 20.0f + BaseEyeHeight));
+	CameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, BaseEyeHeight));
 	CameraComponent->bUsePawnControlRotation = true;
 }
 
@@ -41,6 +41,8 @@ void ACPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis("Right", this, &ACPlayerCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("MouseX", this, &ACPlayerCharacter::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("MouseY", this, &ACPlayerCharacter::AddControllerPitchInput);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACPlayerCharacter::StartJump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACPlayerCharacter::StopJump);
 
 }
 
