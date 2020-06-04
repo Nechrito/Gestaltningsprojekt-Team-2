@@ -1,0 +1,14 @@
+UEProject/Content/Levels/Level_1_Chaning_Room_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_1_Corridor_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_1_Environment_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_1_Pool_Area_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_1_Shower_Room_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_1_Tunnel_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+
+UEProject/Content/Levels/Level_2_Environment_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_2_Forest_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_2_trees_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+
+UEProject/Content/Levels/Level_3_Corridor_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_3_Environment_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UEProject/Content/Levels/Level_3_Pool_Area_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
